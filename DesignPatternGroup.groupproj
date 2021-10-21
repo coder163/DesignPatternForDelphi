@@ -30,6 +30,18 @@
         <Projects Include="Memento\Memento.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Single\Single.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Strategy\Strategy.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Factory\Factory.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Command\Command.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -119,14 +131,50 @@
     <Target Name="Memento:Make">
         <MSBuild Projects="Memento\Memento.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Single">
+        <MSBuild Projects="Single\Single.dproj"/>
+    </Target>
+    <Target Name="Single:Clean">
+        <MSBuild Projects="Single\Single.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Single:Make">
+        <MSBuild Projects="Single\Single.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Strategy">
+        <MSBuild Projects="Strategy\Strategy.dproj"/>
+    </Target>
+    <Target Name="Strategy:Clean">
+        <MSBuild Projects="Strategy\Strategy.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Strategy:Make">
+        <MSBuild Projects="Strategy\Strategy.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Factory">
+        <MSBuild Projects="Factory\Factory.dproj"/>
+    </Target>
+    <Target Name="Factory:Clean">
+        <MSBuild Projects="Factory\Factory.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Factory:Make">
+        <MSBuild Projects="Factory\Factory.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Command">
+        <MSBuild Projects="Command\Command.dproj"/>
+    </Target>
+    <Target Name="Command:Clean">
+        <MSBuild Projects="Command\Command.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Command:Make">
+        <MSBuild Projects="Command\Command.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="TemplateMethod;BuilderMode;Prototype;State;ProjectIterator;Interpreter;ChainOfResponsibility;MediatorPattern;Memento"/>
+        <CallTarget Targets="TemplateMethod;BuilderMode;Prototype;State;ProjectIterator;Interpreter;ChainOfResponsibility;MediatorPattern;Memento;Single;Strategy;Factory;Command"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="TemplateMethod:Clean;BuilderMode:Clean;Prototype:Clean;State:Clean;ProjectIterator:Clean;Interpreter:Clean;ChainOfResponsibility:Clean;MediatorPattern:Clean;Memento:Clean"/>
+        <CallTarget Targets="TemplateMethod:Clean;BuilderMode:Clean;Prototype:Clean;State:Clean;ProjectIterator:Clean;Interpreter:Clean;ChainOfResponsibility:Clean;MediatorPattern:Clean;Memento:Clean;Single:Clean;Strategy:Clean;Factory:Clean;Command:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="TemplateMethod:Make;BuilderMode:Make;Prototype:Make;State:Make;ProjectIterator:Make;Interpreter:Make;ChainOfResponsibility:Make;MediatorPattern:Make;Memento:Make"/>
+        <CallTarget Targets="TemplateMethod:Make;BuilderMode:Make;Prototype:Make;State:Make;ProjectIterator:Make;Interpreter:Make;ChainOfResponsibility:Make;MediatorPattern:Make;Memento:Make;Single:Make;Strategy:Make;Factory:Make;Command:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
