@@ -1,0 +1,132 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{AFDC76D2-15D5-4208-9BFA-B80B39FCF5AB}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="TemplateMethod\TemplateMethod.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="BuilderMode\BuilderMode.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Prototype\Prototype.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="State\State.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Iterator\ProjectIterator.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Interpreter\Interpreter.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="ChainOfResponsibility\ChainOfResponsibility.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="MediatorPattern\MediatorPattern.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Memento\Memento.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="TemplateMethod">
+        <MSBuild Projects="TemplateMethod\TemplateMethod.dproj"/>
+    </Target>
+    <Target Name="TemplateMethod:Clean">
+        <MSBuild Projects="TemplateMethod\TemplateMethod.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="TemplateMethod:Make">
+        <MSBuild Projects="TemplateMethod\TemplateMethod.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="BuilderMode">
+        <MSBuild Projects="BuilderMode\BuilderMode.dproj"/>
+    </Target>
+    <Target Name="BuilderMode:Clean">
+        <MSBuild Projects="BuilderMode\BuilderMode.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="BuilderMode:Make">
+        <MSBuild Projects="BuilderMode\BuilderMode.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Prototype">
+        <MSBuild Projects="Prototype\Prototype.dproj"/>
+    </Target>
+    <Target Name="Prototype:Clean">
+        <MSBuild Projects="Prototype\Prototype.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Prototype:Make">
+        <MSBuild Projects="Prototype\Prototype.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="State">
+        <MSBuild Projects="State\State.dproj"/>
+    </Target>
+    <Target Name="State:Clean">
+        <MSBuild Projects="State\State.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="State:Make">
+        <MSBuild Projects="State\State.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ProjectIterator">
+        <MSBuild Projects="Iterator\ProjectIterator.dproj"/>
+    </Target>
+    <Target Name="ProjectIterator:Clean">
+        <MSBuild Projects="Iterator\ProjectIterator.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProjectIterator:Make">
+        <MSBuild Projects="Iterator\ProjectIterator.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Interpreter">
+        <MSBuild Projects="Interpreter\Interpreter.dproj"/>
+    </Target>
+    <Target Name="Interpreter:Clean">
+        <MSBuild Projects="Interpreter\Interpreter.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Interpreter:Make">
+        <MSBuild Projects="Interpreter\Interpreter.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="ChainOfResponsibility">
+        <MSBuild Projects="ChainOfResponsibility\ChainOfResponsibility.dproj"/>
+    </Target>
+    <Target Name="ChainOfResponsibility:Clean">
+        <MSBuild Projects="ChainOfResponsibility\ChainOfResponsibility.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ChainOfResponsibility:Make">
+        <MSBuild Projects="ChainOfResponsibility\ChainOfResponsibility.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="MediatorPattern">
+        <MSBuild Projects="MediatorPattern\MediatorPattern.dproj"/>
+    </Target>
+    <Target Name="MediatorPattern:Clean">
+        <MSBuild Projects="MediatorPattern\MediatorPattern.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="MediatorPattern:Make">
+        <MSBuild Projects="MediatorPattern\MediatorPattern.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Memento">
+        <MSBuild Projects="Memento\Memento.dproj"/>
+    </Target>
+    <Target Name="Memento:Clean">
+        <MSBuild Projects="Memento\Memento.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Memento:Make">
+        <MSBuild Projects="Memento\Memento.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="TemplateMethod;BuilderMode;Prototype;State;ProjectIterator;Interpreter;ChainOfResponsibility;MediatorPattern;Memento"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="TemplateMethod:Clean;BuilderMode:Clean;Prototype:Clean;State:Clean;ProjectIterator:Clean;Interpreter:Clean;ChainOfResponsibility:Clean;MediatorPattern:Clean;Memento:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="TemplateMethod:Make;BuilderMode:Make;Prototype:Make;State:Make;ProjectIterator:Make;Interpreter:Make;ChainOfResponsibility:Make;MediatorPattern:Make;Memento:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
