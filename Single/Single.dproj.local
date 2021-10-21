@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/30 10:02:28.000.603,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2021/06/30 13:36:08.000.923,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2021/10/21 13:50:35.362,D:\workspace\delphi\DesignPatternForDelphi\Single\Single.dproj=D:\workspace\delphi\Project1.dproj</Transaction>
+    <Transaction>2021/10/21 13:50:56.564,=D:\workspace\delphi\DesignPatternForDelphi\Single\Unit1.pas</Transaction>
+    <Transaction>2021/10/21 13:51:03.737,D:\workspace\delphi\DesignPatternForDelphi\Single\uCommonUtil.pas=D:\workspace\delphi\DesignPatternForDelphi\Single\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>
