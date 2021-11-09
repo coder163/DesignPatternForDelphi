@@ -3,8 +3,8 @@
 	<Transactions>
     <Transaction>2021/06/30 10:02:28.000.603,=D:\workspace\delphi\Unit1.pas</Transaction>
     <Transaction>2021/06/30 13:36:08.000.923,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>2021/10/21 13:53:32.000.379,D:\workspace\delphi\DesignPatternForDelphi\Strategy\Strategy.dproj=D:\workspace\delphi\Project1.dproj</Transaction>
+    <Transaction>2021/10/21 13:53:32.000.379,D:\workspace\delphi\Project1.dproj=D:\workspace\delphi\DesignPatternForDelphi\Strategy\Strategy.dproj</Transaction>
     <Transaction>2021/10/21 13:53:46.000.140,=D:\workspace\delphi\DesignPatternForDelphi\Strategy\Unit1.pas</Transaction>
-    <Transaction>2021/10/21 13:53:52.000.090,D:\workspace\delphi\DesignPatternForDelphi\Strategy\uStrategy.pas=D:\workspace\delphi\DesignPatternForDelphi\Strategy\Unit1.pas</Transaction>
+    <Transaction>2021/10/21 13:53:52.000.090,D:\workspace\delphi\DesignPatternForDelphi\Strategy\Unit1.pas=D:\workspace\delphi\DesignPatternForDelphi\Strategy\uStrategy.pas</Transaction>
   </Transactions>
 </BorlandProject>
