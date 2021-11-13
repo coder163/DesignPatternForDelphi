@@ -48,6 +48,9 @@
         <Projects Include="VisitorPattern\VisitorPattern.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="AdapterPattern\AdapterPattern.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -191,14 +194,23 @@
     <Target Name="VisitorPattern:Make">
         <MSBuild Projects="VisitorPattern\VisitorPattern.dproj" Targets="Make"/>
     </Target>
+    <Target Name="AdapterPattern">
+        <MSBuild Projects="AdapterPattern\AdapterPattern.dproj"/>
+    </Target>
+    <Target Name="AdapterPattern:Clean">
+        <MSBuild Projects="AdapterPattern\AdapterPattern.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="AdapterPattern:Make">
+        <MSBuild Projects="AdapterPattern\AdapterPattern.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="TemplateMethod;BuilderMode;Prototype;State;ProjectIterator;Interpreter;ChainOfResponsibility;MediatorPattern;Memento;Single;Strategy;Factory;Command;ObserverPattern;VisitorPattern"/>
+        <CallTarget Targets="TemplateMethod;BuilderMode;Prototype;State;ProjectIterator;Interpreter;ChainOfResponsibility;MediatorPattern;Memento;Single;Strategy;Factory;Command;ObserverPattern;VisitorPattern;AdapterPattern"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="TemplateMethod:Clean;BuilderMode:Clean;Prototype:Clean;State:Clean;ProjectIterator:Clean;Interpreter:Clean;ChainOfResponsibility:Clean;MediatorPattern:Clean;Memento:Clean;Single:Clean;Strategy:Clean;Factory:Clean;Command:Clean;ObserverPattern:Clean;VisitorPattern:Clean"/>
+        <CallTarget Targets="TemplateMethod:Clean;BuilderMode:Clean;Prototype:Clean;State:Clean;ProjectIterator:Clean;Interpreter:Clean;ChainOfResponsibility:Clean;MediatorPattern:Clean;Memento:Clean;Single:Clean;Strategy:Clean;Factory:Clean;Command:Clean;ObserverPattern:Clean;VisitorPattern:Clean;AdapterPattern:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="TemplateMethod:Make;BuilderMode:Make;Prototype:Make;State:Make;ProjectIterator:Make;Interpreter:Make;ChainOfResponsibility:Make;MediatorPattern:Make;Memento:Make;Single:Make;Strategy:Make;Factory:Make;Command:Make;ObserverPattern:Make;VisitorPattern:Make"/>
+        <CallTarget Targets="TemplateMethod:Make;BuilderMode:Make;Prototype:Make;State:Make;ProjectIterator:Make;Interpreter:Make;ChainOfResponsibility:Make;MediatorPattern:Make;Memento:Make;Single:Make;Strategy:Make;Factory:Make;Command:Make;ObserverPattern:Make;VisitorPattern:Make;AdapterPattern:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
