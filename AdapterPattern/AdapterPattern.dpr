@@ -7,7 +7,8 @@ program AdapterPattern;
 uses
   System.SysUtils,
   AdapterBasicWithClassUnit in 'AdapterBasicWithClassUnit.pas',
-  AdapterBasicWithObjectUnit in 'AdapterBasicWithObjectUnit.pas';
+  AdapterBasicWithObjectUnit in 'AdapterBasicWithObjectUnit.pas',
+  MediaAdapterUnit in 'MediaAdapterUnit.pas';
 
 procedure TestAdapterClass();
    //相当于客户端
@@ -27,9 +28,20 @@ begin
   Target.Request();
 end;
 
+procedure MediaAdapter();
+begin
+  var AudioPlayer := TAudioPlayer.Create();
+  AudioPlayer.play('MP3', '挪威的森林.mp3');
+  AudioPlayer.play('MP4', '挪威的森林.mp4');
+  AudioPlayer.play('vlc', '挪威的森林.vlc');
+  AudioPlayer.play('avi', '水手.avi');
+
+end;
+
 begin
   try
-    TestAdapterObject();
+   // TestAdapterObject();
+    MediaAdapter();
   except
     on E: Exception do
       Writeln(E.ClassName, ': ', E.Message);
