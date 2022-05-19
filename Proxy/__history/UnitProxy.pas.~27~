@@ -1,0 +1,68 @@
+unit UnitProxy;
+
+interface
+
+type
+  INormalAttack = interface
+    ['{0D26D561-70A3-4D36-85D0-2E3FF6F1E8EB}']
+    // 制造攻击
+    procedure makeAttack();
+  end;
+
+  // 熊提伯斯(可以类比相似的宠物、分身等)
+  TTibbers = class(TInterfacedObject, INormalAttack)
+  private
+    // 生命值
+    FBlood: Integer;
+  public
+
+    property Blood: Integer read FBlood write FBlood;
+    // 提伯斯攻击
+    procedure makeAttack();
+  end;
+
+  // 安妮类(可以类比相似的英雄)
+  Annie = class(TInterfacedObject, INormalAttack)
+  private
+    FTibbers: TTibbers;
+
+  public
+    // 构造方法
+    constructor Create(); overload;
+    // 提伯斯攻击
+    procedure makeAttack();
+  end;
+
+implementation
+
+{ TTibbers }
+
+procedure TTibbers.makeAttack;
+begin
+  Writeln('提伯斯攻击，造成伤害');
+end;
+
+{ Annie }
+
+constructor Annie.Create;
+begin
+  // 创建熊提伯斯对象,相当于召唤出熊
+  FTibbers := TTibbers.Create();
+  FTibbers.Blood := 100;
+end;
+
+procedure Annie.makeAttack;
+begin
+  // 此处我们让安妮使用熊提伯斯进行攻击
+  if FTibbers.Blood > 10 then
+  begin
+    Writeln('使用熊攻击');
+    FTibbers.makeAttack();
+  end else begin
+    Writeln('停止攻击');
+    Writeln('使用熊攻击');
+  end;
+
+end;
+
+end.

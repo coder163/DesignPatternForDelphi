@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/06/30 10:02:28.000.603,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2021/06/30 13:36:08.000.923,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/14 10:35:50.000.409,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/15 10:17:02.000.426,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/15 10:23:41.000.502,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/15 14:13:38.000.995,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/15 15:01:39.000.364,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2022/01/16 10:52:22.000.822,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2022/05/19 09:10:53.000.137,D:\workspace\delphi\Project1.dproj=D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProjectProxy.dproj</Transaction>
+    <Transaction>2022/05/19 09:11:04.000.102,=D:\workspace\delphi\DesignPatternForDelphi\Proxy\Unit1.pas</Transaction>
+    <Transaction>2022/05/19 09:11:17.000.597,D:\workspace\delphi\DesignPatternForDelphi\Proxy\Unit1.pas=D:\workspace\delphi\DesignPatternForDelphi\Proxy\UnitProxy.pas</Transaction>
+    <Transaction>2022/05/19 09:41:34.000.786,D:\workspace\delphi\DesignPatternForDelphi\Proxy\UnitProxy.pas=D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProxyUnit.pas</Transaction>
+    <Transaction>2022/05/19 09:41:56.000.179,D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProjectProxy.dproj=D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProxyPattern.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

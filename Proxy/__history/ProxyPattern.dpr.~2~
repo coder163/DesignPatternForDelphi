@@ -1,0 +1,32 @@
+program ProxyPattern;
+
+{$APPTYPE CONSOLE}
+{$R *.res}
+
+uses
+  System.SysUtils,
+  ProxyUnit in 'ProxyUnit.pas';
+
+begin
+  try
+    var
+    Annie := TAnnie.Create();
+
+    while true do
+    begin
+      Annie.makeAttack();
+
+      Annie.Tibbers.Blood := Annie.Tibbers.Blood - 30;
+
+      if Annie.Tibbers.Blood < 10 then
+        break;
+    end;
+
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+
+  readln;
+
+end.

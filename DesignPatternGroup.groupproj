@@ -54,6 +54,9 @@
         <Projects Include="BridgePattern\BridgePattern.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Proxy\ProxyPattern.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -215,14 +218,23 @@
     <Target Name="BridgePattern:Make">
         <MSBuild Projects="BridgePattern\BridgePattern.dproj" Targets="Make"/>
     </Target>
+    <Target Name="ProxyPattern">
+        <MSBuild Projects="Proxy\ProxyPattern.dproj"/>
+    </Target>
+    <Target Name="ProxyPattern:Clean">
+        <MSBuild Projects="Proxy\ProxyPattern.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="ProxyPattern:Make">
+        <MSBuild Projects="Proxy\ProxyPattern.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="TemplateMethod;BuilderMode;Prototype;State;ProjectIterator;Interpreter;ChainOfResponsibility;MediatorPattern;Memento;Single;Strategy;Factory;Command;ObserverPattern;VisitorPattern;AdapterPattern;BridgePattern"/>
+        <CallTarget Targets="TemplateMethod;BuilderMode;Prototype;State;ProjectIterator;Interpreter;ChainOfResponsibility;MediatorPattern;Memento;Single;Strategy;Factory;Command;ObserverPattern;VisitorPattern;AdapterPattern;BridgePattern;ProxyPattern"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="TemplateMethod:Clean;BuilderMode:Clean;Prototype:Clean;State:Clean;ProjectIterator:Clean;Interpreter:Clean;ChainOfResponsibility:Clean;MediatorPattern:Clean;Memento:Clean;Single:Clean;Strategy:Clean;Factory:Clean;Command:Clean;ObserverPattern:Clean;VisitorPattern:Clean;AdapterPattern:Clean;BridgePattern:Clean"/>
+        <CallTarget Targets="TemplateMethod:Clean;BuilderMode:Clean;Prototype:Clean;State:Clean;ProjectIterator:Clean;Interpreter:Clean;ChainOfResponsibility:Clean;MediatorPattern:Clean;Memento:Clean;Single:Clean;Strategy:Clean;Factory:Clean;Command:Clean;ObserverPattern:Clean;VisitorPattern:Clean;AdapterPattern:Clean;BridgePattern:Clean;ProxyPattern:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="TemplateMethod:Make;BuilderMode:Make;Prototype:Make;State:Make;ProjectIterator:Make;Interpreter:Make;ChainOfResponsibility:Make;MediatorPattern:Make;Memento:Make;Single:Make;Strategy:Make;Factory:Make;Command:Make;ObserverPattern:Make;VisitorPattern:Make;AdapterPattern:Make;BridgePattern:Make"/>
+        <CallTarget Targets="TemplateMethod:Make;BuilderMode:Make;Prototype:Make;State:Make;ProjectIterator:Make;Interpreter:Make;ChainOfResponsibility:Make;MediatorPattern:Make;Memento:Make;Single:Make;Strategy:Make;Factory:Make;Command:Make;ObserverPattern:Make;VisitorPattern:Make;AdapterPattern:Make;BridgePattern:Make;ProxyPattern:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>

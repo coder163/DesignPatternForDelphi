@@ -1,0 +1,28 @@
+program ProjectProxy;
+
+{$APPTYPE CONSOLE}
+{$R *.res}
+
+uses
+  System.SysUtils,
+  UnitProxy in 'UnitProxy.pas';
+
+begin
+  try
+    var
+    Annie := TAnnie.Create();
+
+    while true do begin
+      Annie.makeAttack();
+
+      Annie.Tibbers.Blood := Annie.Tibbers.Blood - 30;
+    end;
+
+  except
+    on E: Exception do
+      Writeln(E.ClassName, ': ', E.Message);
+  end;
+
+  readln;
+
+end.

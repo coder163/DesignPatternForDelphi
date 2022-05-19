@@ -1,0 +1,74 @@
+unit ProxyUnit;
+
+interface
+
+type
+  INormalAttack = interface
+    ['{0D26D561-70A3-4D36-85D0-2E3FF6F1E8EB}']
+    // 制造攻击
+    procedure makeAttack();
+  end;
+
+  // 道具(可以是宠物、分身、炮台等) ,当然可以再建该类的子类具体出攻击方式，为了避免代码复杂这里就不再扩展
+
+  TProp = class(TInterfacedObject, INormalAttack)
+  private
+    // 生命值
+    FBlood: Integer;
+    FName: string;
+  public
+    property Blood: Integer read FBlood write FBlood;
+    property Name: string read FName write FName;
+
+    // 攻击
+    procedure makeAttack(); overload;
+  end;
+
+  // 英雄(可以是安妮、提莫等等)
+  THero = class(TInterfacedObject, INormalAttack)
+  private
+    FProp: TProp;
+    //
+  public
+
+    // 构造方法，参数为道具
+    constructor Create(Prop: TProp); overload;
+    // 提伯斯攻击
+    procedure makeAttack(); overload;
+  end;
+
+implementation
+
+{ TTibbers }
+
+procedure TProp.makeAttack;
+begin
+
+  Writeln(Self.Name + '对目标造成伤害');
+end;
+
+{ Annie }
+
+constructor THero.Create(Prop: TProp);
+begin
+  // 创建熊提伯斯对象,相当于召唤出熊
+  FProp := Prop;
+end;
+
+procedure THero.makeAttack;
+begin
+
+  if FProp.Blood > 30 then
+  begin
+
+    FProp.makeAttack();
+  end
+  else
+  begin
+    Writeln(FProp.name + '生命值太低，停止攻击');
+  end;
+
+end;
+
+end.
+
