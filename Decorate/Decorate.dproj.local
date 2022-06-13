@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899-12-30 00:00:00.000.800,D:\workspace\delphi\DesignPatternForDelphi\Decorate\UnitDecorate.pas=D:\workspace\delphi\DesignPatternForDelphi\Decorate\DecorateUnit.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.937,D:\DelphiWorkSpace\Project1.dproj=D:\workspace\delphi\DesignPatternForDelphi\Decorate\Decorate.dproj</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.579,D:\workspace\delphi\DesignPatternForDelphi\Decorate\Unit1.pas=D:\workspace\delphi\DesignPatternForDelphi\Decorate\UnitDecorate.pas</Transaction>
+    <Transaction>1899-12-30 00:00:00.000.292,=D:\workspace\delphi\DesignPatternForDelphi\Decorate\Unit1.pas</Transaction>
+    <Transaction>2022-06-13 15:26:38.471,=D:\workspace\delphi\DesignPatternForDelphi\Decorate\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

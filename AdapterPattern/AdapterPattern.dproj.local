@@ -1,14 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2021/06/30 10:02:28.000.603,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>2021/06/30 13:36:08.000.923,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>2021/11/13 18:30:20.000.534,D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\AdapterPattern.dproj=D:\workspace\delphi\Project1.dproj</Transaction>
-    <Transaction>2021/11/13 18:30:30.000.830,=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas</Transaction>
-    <Transaction>2021/11/13 18:31:05.000.233,D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\AdapterBasicWithClassUnit.pas=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas</Transaction>
-    <Transaction>2021/11/15 13:16:31.000.396,=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas</Transaction>
-    <Transaction>2021/11/15 13:17:04.000.464,D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\AdapterBasicWithObjectUnit.pas</Transaction>
-    <Transaction>2021/11/18 19:12:49.000.304,=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas</Transaction>
-    <Transaction>2021/11/18 19:13:33.000.863,D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\MediaAdapterUnit.pas</Transaction>
+    <Transaction>2021-06-30 10:02:28.000.603,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2021-06-30 13:36:08.000.923,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>2021-11-13 18:30:20.000.534,D:\workspace\delphi\Project1.dproj=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\AdapterPattern.dproj</Transaction>
+    <Transaction>2021-11-13 18:30:30.000.830,=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas</Transaction>
+    <Transaction>2021-11-13 18:31:05.000.233,D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\AdapterBasicWithClassUnit.pas</Transaction>
+    <Transaction>2021-11-15 13:16:31.000.396,=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas</Transaction>
+    <Transaction>2021-11-15 13:17:04.000.464,D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\AdapterBasicWithObjectUnit.pas=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas</Transaction>
+    <Transaction>2021-11-18 19:12:49.000.304,=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas</Transaction>
+    <Transaction>2021-11-18 19:13:33.000.863,D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\MediaAdapterUnit.pas=D:\workspace\delphi\DesignPatternForDelphi\AdapterPattern\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

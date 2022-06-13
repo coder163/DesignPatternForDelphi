@@ -19,8 +19,7 @@ begin
     //攻击应该是持续的，所以搞个循环
     Hero.HeroName := '提莫';
 
-    while true do
-    begin
+    while true do begin
       Hero.makeAttack();
       //每攻击一次道具的生命值降低一次
       Hero.Prop.Blood := Hero.Prop.Blood - 50;
