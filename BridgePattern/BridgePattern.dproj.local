@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>2021-06-30 10:02:28.000.603,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>2021-06-30 13:36:08.000.923,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>2021-11-21 16:08:57.000.918,D:\workspace\delphi\Project1.dproj=D:\workspace\delphi\DesignPatternForDelphi\BridgePattern\BridgePattern.dproj</Transaction>
-    <Transaction>2021-11-21 16:09:32.000.292,=D:\workspace\delphi\DesignPatternForDelphi\BridgePattern\Unit1.pas</Transaction>
-    <Transaction>2021-11-21 16:09:49.000.744,D:\workspace\delphi\DesignPatternForDelphi\BridgePattern\Unit1.pas=D:\workspace\delphi\DesignPatternForDelphi\BridgePattern\BridgeUnit.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.923,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.603,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.918,D:\workspace\delphi\DesignPatternForDelphi\BridgePattern\BridgePattern.dproj=D:\workspace\delphi\Project1.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.744,D:\workspace\delphi\DesignPatternForDelphi\BridgePattern\BridgeUnit.pas=D:\workspace\delphi\DesignPatternForDelphi\BridgePattern\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.292,=D:\workspace\delphi\DesignPatternForDelphi\BridgePattern\Unit1.pas</Transaction>
   </Transactions>
 </BorlandProject>

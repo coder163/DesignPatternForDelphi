@@ -23,7 +23,7 @@ type
   end;
 
   //基础装饰器
-  TNormalAttackDecorator =  class abstract(TInterfacedObject, INormalAttack)    
+  TNormalAttackDecorator = class abstract(TInterfacedObject, INormalAttack)
   private
     FNormalAttack: INormalAttack;
   private
@@ -31,13 +31,13 @@ type
   public
     property NormalAttack: INormalAttack read FNormalAttack write FNormalAttack;
     //虚函数，不做函数实现
-    procedure MakeADAttack(); virtual; abstract;   
+    procedure MakeADAttack(); virtual; abstract;
 
     constructor Create(NormalAttack: INormalAttack); overload;
   end;
 
   //减速
-  TRetardDecorator = class(TNormalAttackDecorator)    
+  TRetardDecorator = class(TNormalAttackDecorator)
   public
     procedure MakeADAttack(); override;
 
@@ -51,7 +51,6 @@ type
 
     constructor Create(NormalAttack: INormalAttack); overload;
   end;
-
 
 implementation
 
@@ -76,7 +75,6 @@ constructor TNormalAttackDecorator.Create(NormalAttack: INormalAttack);
 begin
 
   Self.NormalAttack := NormalAttack;
-  
 
 end;
 

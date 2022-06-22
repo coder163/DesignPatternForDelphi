@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/06/21 14:37:27.000.665,D:\DelphiWorkSpace\Project1.dproj=D:\workspace\delphi\DesignPatternForDelphi\Facade\Facade.dproj</Transaction>
+    <Transaction>2022/06/21 14:41:21.688,=D:\workspace\delphi\DesignPatternForDelphi\Facade\Unit1.pas</Transaction>
+    <Transaction>2022/06/21 14:41:37.446,D:\workspace\delphi\DesignPatternForDelphi\Facade\UnitFacade.pas=D:\workspace\delphi\DesignPatternForDelphi\Facade\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
-    <Transaction>1899-12-30 00:00:00.000.502,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.426,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.409,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.822,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.364,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.995,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.923,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.786,D:\workspace\delphi\DesignPatternForDelphi\Proxy\UnitProxy.pas=D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProxyUnit.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.597,D:\workspace\delphi\DesignPatternForDelphi\Proxy\Unit1.pas=D:\workspace\delphi\DesignPatternForDelphi\Proxy\UnitProxy.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.102,=D:\workspace\delphi\DesignPatternForDelphi\Proxy\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.603,=D:\workspace\delphi\Unit1.pas</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.137,D:\workspace\delphi\Project1.dproj=D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProjectProxy.dproj</Transaction>
-    <Transaction>1899-12-30 00:00:00.000.179,D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProjectProxy.dproj=D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProxyPattern.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.923,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.603,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.822,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.502,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.426,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.409,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.364,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.597,D:\workspace\delphi\DesignPatternForDelphi\Proxy\Unit1.pas=D:\workspace\delphi\DesignPatternForDelphi\Proxy\UnitProxy.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.102,=D:\workspace\delphi\DesignPatternForDelphi\Proxy\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.786,D:\workspace\delphi\DesignPatternForDelphi\Proxy\UnitProxy.pas=D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProxyUnit.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.995,=D:\workspace\delphi\Unit1.pas</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.137,D:\workspace\delphi\Project1.dproj=D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProjectProxy.dproj</Transaction>
+    <Transaction>1899/12/30 00:00:00.000.179,D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProjectProxy.dproj=D:\workspace\delphi\DesignPatternForDelphi\Proxy\ProxyPattern.dproj</Transaction>
   </Transactions>
 </BorlandProject>
