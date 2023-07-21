@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2022/09/30 08:51:06.000.871,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2022/11/10 09:37:31.000.199,=D:\DelphiWorkSpace\Unit1.pas</Transaction>
+    <Transaction>2023/07/21 15:23:42.000.878,D:\DelphiWorkSpace\Project1.dproj=D:\DelphiWorkSpace\DesignPatternForDelphi\Flyweight\Flyweight.dproj</Transaction>
+    <Transaction>2023/07/21 15:24:07.000.256,=D:\DelphiWorkSpace\DesignPatternForDelphi\Flyweight\Unit1.pas</Transaction>
+    <Transaction>2023/07/21 15:24:21.000.563,D:\DelphiWorkSpace\DesignPatternForDelphi\Flyweight\Unit1.pas=D:\DelphiWorkSpace\DesignPatternForDelphi\Flyweight\UnitFlyweight.pas</Transaction>
+  </Transactions>
+</BorlandProject>

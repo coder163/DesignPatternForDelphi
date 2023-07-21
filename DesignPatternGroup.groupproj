@@ -66,6 +66,9 @@
         <Projects Include="Combination\Combination.dproj">
             <Dependencies/>
         </Projects>
+        <Projects Include="Flyweight\Flyweight.dproj">
+            <Dependencies/>
+        </Projects>
     </ItemGroup>
     <ProjectExtensions>
         <Borland.Personality>Default.Personality.12</Borland.Personality>
@@ -263,14 +266,23 @@
     <Target Name="Combination:Make">
         <MSBuild Projects="Combination\Combination.dproj" Targets="Make"/>
     </Target>
+    <Target Name="Flyweight">
+        <MSBuild Projects="Flyweight\Flyweight.dproj"/>
+    </Target>
+    <Target Name="Flyweight:Clean">
+        <MSBuild Projects="Flyweight\Flyweight.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Flyweight:Make">
+        <MSBuild Projects="Flyweight\Flyweight.dproj" Targets="Make"/>
+    </Target>
     <Target Name="Build">
-        <CallTarget Targets="TemplateMethod;BuilderMode;Prototype;State;ProjectIterator;Interpreter;ChainOfResponsibility;MediatorPattern;Memento;Single;Strategy;Factory;Command;ObserverPattern;VisitorPattern;AdapterPattern;BridgePattern;ProxyPattern;Decorate;Facade;Combination"/>
+        <CallTarget Targets="TemplateMethod;BuilderMode;Prototype;State;ProjectIterator;Interpreter;ChainOfResponsibility;MediatorPattern;Memento;Single;Strategy;Factory;Command;ObserverPattern;VisitorPattern;AdapterPattern;BridgePattern;ProxyPattern;Decorate;Facade;Combination;Flyweight"/>
     </Target>
     <Target Name="Clean">
-        <CallTarget Targets="TemplateMethod:Clean;BuilderMode:Clean;Prototype:Clean;State:Clean;ProjectIterator:Clean;Interpreter:Clean;ChainOfResponsibility:Clean;MediatorPattern:Clean;Memento:Clean;Single:Clean;Strategy:Clean;Factory:Clean;Command:Clean;ObserverPattern:Clean;VisitorPattern:Clean;AdapterPattern:Clean;BridgePattern:Clean;ProxyPattern:Clean;Decorate:Clean;Facade:Clean;Combination:Clean"/>
+        <CallTarget Targets="TemplateMethod:Clean;BuilderMode:Clean;Prototype:Clean;State:Clean;ProjectIterator:Clean;Interpreter:Clean;ChainOfResponsibility:Clean;MediatorPattern:Clean;Memento:Clean;Single:Clean;Strategy:Clean;Factory:Clean;Command:Clean;ObserverPattern:Clean;VisitorPattern:Clean;AdapterPattern:Clean;BridgePattern:Clean;ProxyPattern:Clean;Decorate:Clean;Facade:Clean;Combination:Clean;Flyweight:Clean"/>
     </Target>
     <Target Name="Make">
-        <CallTarget Targets="TemplateMethod:Make;BuilderMode:Make;Prototype:Make;State:Make;ProjectIterator:Make;Interpreter:Make;ChainOfResponsibility:Make;MediatorPattern:Make;Memento:Make;Single:Make;Strategy:Make;Factory:Make;Command:Make;ObserverPattern:Make;VisitorPattern:Make;AdapterPattern:Make;BridgePattern:Make;ProxyPattern:Make;Decorate:Make;Facade:Make;Combination:Make"/>
+        <CallTarget Targets="TemplateMethod:Make;BuilderMode:Make;Prototype:Make;State:Make;ProjectIterator:Make;Interpreter:Make;ChainOfResponsibility:Make;MediatorPattern:Make;Memento:Make;Single:Make;Strategy:Make;Factory:Make;Command:Make;ObserverPattern:Make;VisitorPattern:Make;AdapterPattern:Make;BridgePattern:Make;ProxyPattern:Make;Decorate:Make;Facade:Make;Combination:Make;Flyweight:Make"/>
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
